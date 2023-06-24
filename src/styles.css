@@ -1,0 +1,49 @@
+.planet-list-container {
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .planet-list-heading {
+    color: wheat;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+  }
+  
+  .planet-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .planet-item{
+    cursor: pointer;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .planet-resident{
+    cursor: pointer;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .planet-item:hover{
+    cursor: pointer;
+    font-size: 800;
+    color: rgb(99, 173, 198);
+  }
+
+  .pagination {
+    margin-top: 1rem;
+  }
+  
+  .pages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
